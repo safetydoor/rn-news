@@ -14,3 +14,19 @@
 2. 列表页使用的Listview，可以点击加载更多，点击列表项进入详细页面
 3. 详细页面使用的是一个WebView
 4. 详细页可以点击返回回到主页
+
+
+###总结
+1. 类的创建有2种方式
+
+第一种:
+`
+var NavigationBar = React.createClass({...});//不要忘记了括号
+module.exports = NavigationBar;//导出组件方式
+`
+
+第二种:
+`
+class NavigationBar extends Component{...}
+export default NavigationBar;//导出组件方式
+`
