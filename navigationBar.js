@@ -9,7 +9,6 @@ import React, {
 
 var NavigationBar = React.createClass({
 
-
 	render:function(){
 		console.log('NavigationBar render');
 		if (this.props.canBack) {
@@ -33,7 +32,7 @@ var NavigationBar = React.createClass({
 
 	onBackPressed:function(){
 		this.props.navigator.pop();
-	}
+	},
 
 });
 
